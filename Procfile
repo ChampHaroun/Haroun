@@ -1,1 +1,2 @@
-echo "web: python app.py" > Procfile
+web: gunicorn Haroun:app
+
