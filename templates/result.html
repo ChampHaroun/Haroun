@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculation Results</title>
+</head>
+<body>
+    <h1>Results for {{ total_quantity }} kg</h1>
+    <ul>
+        {% for item, quantity in quantities.items() %}
+            <li>{{ item }}: {{ quantity }} kg</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Go Back</a>
+</body>
+</html>
+
