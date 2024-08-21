@@ -1,2 +1,3 @@
-web: gunicorn Harounbhar-2:app
+web: gunicorn app:app
+
 
