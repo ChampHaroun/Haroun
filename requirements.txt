@@ -1,6 +1,5 @@
 contourpy==1.2.1
 cycler==0.12.1
-Flask==2.2.5
 fonttools==4.53.1
 gunicorn==23.0.0
 kiwisolver==1.4.5
@@ -11,5 +10,3 @@ pillow==10.4.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 six==1.16.0
-
-
